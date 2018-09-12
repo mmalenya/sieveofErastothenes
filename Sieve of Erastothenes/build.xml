@@ -14,4 +14,7 @@
 			</manifest>
 		</jar>
 	</target>
+	<target name="run">
+	        <java jar="build/jar/SieveOfEratosthenes.jar" fork="true"/>
+	    </target>
 </project>

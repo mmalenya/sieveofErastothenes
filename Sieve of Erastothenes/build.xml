@@ -1,4 +1,4 @@
-<project default="jar">
+<project default="run">
 	<target name="clean">
 		<delete dir="build" />
 	</target>
